@@ -1,0 +1,214 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'open sans', sans-serif;
+}
+
+#menu-h ul {
+    max-width: 100%;
+    list-style: none;
+    padding: 0%;
+    background-color: rgba(0, 0, 0, .2);
+}
+
+#menu-h ul li {
+    display: inline;
+    font-size: 18px;
+    position: relative;
+    left: 10px;
+    padding: 10px;
+    left: 10px;
+    padding: 10px;
+    padding: 15px;
+    left: 10px;
+}
+
+#menu-h ul li a {
+    color: #fff;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#menu-h li a:hover {
+    background-color: rgb(122, 45, 22);
+}
+
+#menu-h li:last-child a {
+    float: right;
+    background-color: rgb(122, 45, 22);
+}
+
+.container {
+    display: flex;
+    display: flex;
+    justify-content: center;
+}
+
+.h122 {
+    display: flex;
+    justify-content: left;
+}
+
+.img12 {
+    width: 600px;
+    right: 600px;
+}
+
+.informa {
+    width: 420px;
+    height: 500px;
+    border: solid 3px;
+    border-radius: 20px;
+    position: relative;
+    top: 15px;
+    left: 100px;
+    color: rgba(250, 14, 14, 0.438)
+}
+
+.informa h1 {
+    font-size: 35px;
+    position: relative;
+    margin-top: 5px;
+    left: 117px;
+    color: rgb(90, 15, 15)
+}
+
+.informa li a {
+    font-size: 23px;
+    position: relative;
+    top: 15px;
+    left: 25px;
+    width: 30px;
+    top: 8px;
+    left: 20px;
+    width: 25px;
+    color: white;
+}
+
+.informa img {
+    position: relative;
+    top: -325px;
+    left: 1100px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+.login-page {
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+}
+
+.form {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background-color: #660c0c;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+
+.form button:hover,
+.form button:active,
+.form button:focus {
+    background: #660c0c;
+}
+
+.form .message {
+    margin: 15px 0 0;
+    color: #660c0c;
+    font-size: 12px;
+}
+
+.form .message a {
+    color: #660c0c;
+    text-decoration: none;
+}
+
+.form .register-form {
+    display: none;
+}
+
+.container {
+    position: relative;
+    z-index: 1;
+    max-width: 10000pt;
+    margin: 0 auto;
+}
+
+.container:before,
+.container:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.container .info {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.container .info h1 {
+    margin: 0 0 15px;
+    padding: 0;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1a1a1a;
+}
+
+.container .info span {
+    color: #4d4d4d;
+    font-size: 12px;
+}
+
+.container .info span a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.container .info span .fa {
+    color: #EF3B3A;
+}
+.textopers{
+    color: #fff;
+    position: relative;
+    left: 230px;
+    top: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.textopers{
+    color: #fff;
+    position: relative;
+    top: 20px;
+}

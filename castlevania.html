@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="castlelog.css">
+</head>
+
+<body>
+
+    <div class="backgroude0">
+        <style>
+            body {
+                background-position: 0 0, center;
+                background-size: cover;
+                background-attachment: fixed;
+                background-image: url(https://pbs.twimg.com/media/EUXYKk_XsAAAvqf.jpg)
+            }
+        </style>
+    </div>
+
+
+    <nav id="menu-h">
+        <ul>
+            <li><a href="castlevania.html">Home</a></li>
+            <li><a href="Sobrenos.html">Sobre</a></li>
+            <li><a href="quemsomos.html">Quem somos</a></li>
+            <li><a href="contado.html">Contato</a></li>
+            <li><a href="indexlog.html">Entrar</a></li>
+        </ul>   
+    </nav>
+
+
+    <div class="container">
+        <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ffd8fee3-b692-4714-b59c-fc0967938975/dcdsnv1-4e3d7e19-571a-4daa-91e8-087aa37dbb84.png/v1/fill/w_1024,h_326,strp/castlevania_logo___transparent_by_themastercreative_dcdsnv1-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MzI2IiwicGF0aCI6IlwvZlwvZmZkOGZlZTMtYjY5Mi00NzE0LWI1OWMtZmMwOTY3OTM4OTc1XC9kY2RzbnYxLTRlM2Q3ZTE5LTU3MWEtNGRhYS05MWU4LTA4N2FhMzdkYmI4NC5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.ypKzFz_tLbPTdjL6DgnHbc9zS0psP7TtSWSw4it-B-o" width="20%%" height="25%" alt="logo">
+    </div>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+    
+    *{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body 
+    {
+      font-family: 'Poppins', sans-serif;
+    }
+    
+    .honeycomb {
+      display: -webkit-box;
+      display: flex;
+      flex-wrap: wrap;
+      list-style: none;
+      -webkit-box-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+        align-items: center;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0;
+      transform: translateY(80px);
+    }
+    .honeycomb-cell {
+      -webkit-box-flex: 0;
+              flex: 0 1 250px;
+      max-width: 180px;
+      height: 110.5px;
+      margin: 65.4761904762px 12.5px 25px;
+      position: relative;
+      padding: 0.5em;
+      text-align: center;
+      z-index: 1;
+      box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+    }
+    .honeycomb-cell_title {
+      height: 100%;
+      display: -webkit-box;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+              flex-direction: column;
+      -webkit-box-pack: center;
+              justify-content: center;
+      -webkit-hyphens: auto;
+          -ms-hyphens: auto;
+              hyphens: auto;
+      word-break: break-word;
+      text-transform: uppercase;
+      color: #fff;
+      font-weight: 700;
+      font-size: 1.30em;
+      -webkit-transition: opacity 350ms;
+      transition: opacity 350ms;
+    }
+    .honeycomb-cell_title > small {
+      font-weight: 300;
+      margin-top: 0.25em;
+    }
+    .honeycomb-cell_image {
+         object-fit: cover;
+         object-position: center;
+         filter: grayscale(100%);
+        
+    }
+    
+    
+    .honeycomb-cell::before,
+     .honeycomb-cell::after {
+      content: '';
+    }
+    .honeycomb-cell::before, 
+    .honeycomb-cell::after, 
+    .honeycomb-cell_image {
+      top: -50%;
+      left: 0;
+      width: 100%;
+      height: 200%;
+      display: block;
+      position: absolute;
+      -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+              clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+      z-index: -1;
+    }
+    .honeycomb-cell::before {
+      background: #fff;
+      -webkit-transform: scale(1.055);
+              transform: scale(1.055);
+    }
+    .honeycomb-cell::after {
+      background: #111111;
+      opacity: 0.7;
+      -webkit-transition: opacity 350ms;
+      transition: opacity 350ms;
+    }
+    .honeycomb-cell:hover 
+    .honeycomb-cell_title {
+      opacity: 0;
+    }
+    .honeycomb-cell:hover 
+    .honeycomb-cell_image
+    {
+        filter: grayscale(0%);
+    }
+    .honeycomb-cell:hover::before {
+      background: #ff2c02;
+    }
+    .honeycomb-cell:hover::after {
+      opacity: 0;
+    }
+    .honeycomb_placeholder {
+      display: none;
+      opacity: 0;
+      width: 250px;
+      margin: 0 12.5px;
+    }
+    
+    @media (max-width: 550px) 
+    {
+      .honeycomb-cell 
+      {
+        margin: 81.25px 25px;
+      }
+    }
+    @media (min-width: 550px) and (max-width: 825px) 
+    {
+      .honeycomb-cell:nth-child(3n) 
+      {
+        margin-right: calc(50% - 125px);
+        margin-left: calc(50% - 125px);
+      }
+    
+      .honeycomb_placeholder:nth-child(3n + 5) 
+      {
+        display: block;
+      }
+    }
+    @media (min-width: 825px) and (max-width: 1100px) {
+      .honeycomb-cell:nth-child(5n + 4) 
+      {
+        margin-left: calc(50% - 275px);
+      }
+    
+      .honeycomb-cell:nth-child(5n + 5) 
+      {
+        margin-right: calc(50% - 275px);
+      }
+    
+      .honeycomb_placeholder:nth-child(5n), 
+      .honeycomb_placeholder:nth-child(5n + 3) 
+      {
+        display: block;
+      }
+    }
+    @media (min-width: 1100px) 
+    {
+      .honeycomb-cell:nth-child(7n + 5) {
+        margin-left: calc(50% - 400px);
+      }
+    
+      .honeycomb-cell:nth-child(7n + 7), 
+      .honeycomb-cell:nth-child(7n + 5):nth-last-child(2) 
+      {
+        margin-right: calc(50% - 400px);
+      }
+    
+      .honeycomb_placeholder:nth-child(7n + 7), 
+      .honeycomb_placeholder:nth-child(7n + 9), 
+      .honeycomb_placeholder:nth-child(7n + 11) 
+      {
+        display: block;
+      }
+    }
+    </style>
+    
+    
+    </head>
+    <body>
+        
+    
+    <ul class="honeycomb">
+      <li class="honeycomb-cell">
+        <a href="historia.html" style="text-decoration:none"><img class="honeycomb-cell_image" src="https://i.pinimg.com/originals/c3/27/b1/c327b19599fd6b7a6907d674905d0457.gif">
+        <div class="honeycomb-cell_title">História</div>
+    </a>
+      </li>
+      <li class="honeycomb-cell">
+        <a href="personagens.html" style="text-decoration:none"><img class="honeycomb-cell_image" src="https://64.media.tumblr.com/cd9b559bc04e01c0642ad17a29006e30/0a8973a01d1ef2c4-11/s640x960/c1fcb0dea75f2ed6557c0560a6dd6f96d739390a.gifv">
+        <div class="honeycomb-cell_title">Personagens</div>
+        </a>
+      </li>
+      <li class="honeycomb-cell">
+        <a href="speedruns.html" style="text-decoration:none"><img class="honeycomb-cell_image" src="https://c.tenor.com/S-PL4-VvNNgAAAAC/dracula-castle-vania.gif">
+        <div class="honeycomb-cell_title">Speedruns</div>
+    </a>
+      </li>
+      <li class="honeycomb-cell">
+        <a href="item.html" style="text-decoration:none"><img class="honeycomb-cell_image" src="https://64.media.tumblr.com/0aa2590ec9277c382960f61972fc5f55/tumblr_pkkgudhiYx1wmz551o1_540.gifv">
+        <div class="honeycomb-cell_title">Itens</div>
+    </a>
+      </li>
+      <li class="honeycomb-cell">
+        <a href="curiosidades.html" style="text-decoration:none"><img class="honeycomb-cell_image" src="https://1.bp.blogspot.com/-lZSG1-iVtV0/XmbJacyeTOI/AAAAAAAAI9A/4SfKh1FJcV8sGl22CYhbOlaTCaWLiCZ3gCNcBGAsYHQ/s1600/e2ebf2f0cd46a2236e408981b8d25d03.gif">
+        <div class="honeycomb-cell_title">Curiosidades</div>
+        </a>
+      </li>
+      <li class="honeycomb-cell honeycomb_placeholder">
+      </li>
+    </ul>
+    
+        <audio width="500" height="300" autoplay="true" hidden controls>
+            <source src="audio/Castlevania Dracula X OST_ Stage 2 Vampire Killer.mp3" type="audio/MP3">
+        </audio>
+        
+        <style>
+
+        </style>
+        </div>
+
+</body>
+
+</html>
